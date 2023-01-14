@@ -6,26 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+
+    <style>
+        .tablecontent{
+            border: 2px solid black;
+            font-size: xx-large;
+            padding: 6px;
+            margin: 4px;
+            margin-top: 8px;
+        }
+
+    </style>
 </head>
 <body>
     <h1 align="center"><u>Welcome to MyWebsite</u></h1>
     <hr>
 
-    <div align="center">
+    <div align="center" id="welcomeimg">
         <img src="img/bowl.jpeg" alt="bowl" width="540" height="360">
     </div>
 
-    <div align="center" style="border: 2; border-color: red;">
-            <h2>Index of contents</h2>
-            <div>
-                <a href="index.html" target="_top">Home</a>
-            </div>
-            <div style="border-color: red; border: 2px;">
-                <a href="register.html" target="_self">Registration</a>
-            </div>
-            <div>
+    <div align="left"">
+        <fieldset class="tablecontent">
+                <legend>Contents</legend>
+                <a href="index.html" target="_top">Home</a><br>
+                <a href="register.html" target="_self">Registration</a><br>
                 <a href="semantic.html" target="_blank">Semantic Example</a>
-            </div>
+        </fieldset>
     </div>
                     
 
